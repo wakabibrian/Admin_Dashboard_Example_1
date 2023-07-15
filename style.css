@@ -168,3 +168,10 @@ main {
 .card-single:last-child div:last-child span {
     color: #fff;
 }
+
+.recent-grid {
+}
+
+table {
+    border-collapse: collapse;
+}
