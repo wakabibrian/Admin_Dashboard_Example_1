@@ -22,6 +22,7 @@
     top: 0;
     height: 100%;
     background: var(--main-color);
+    z-index: 100;
 }
 
 .sidebar-brand {
@@ -76,8 +77,9 @@ header {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     position: fixed;
     left: 345px;
-    width: calc(100%-345px);
-    /* top: 0; */
+    width: calc(100% - 345px);
+    top: 0;
+    z-index: 100;
 }
 
 header h2 {
@@ -124,4 +126,11 @@ header label span {
 .user-wrapper small {
     display: inline-block;
     color: var(--text-grey);
+}
+
+main {
+    margin-top: 90px;
+    padding: 2rem 1.5rem;
+    background: #f0f0f0;
+    min-height: calc(100vh - 90px);
 }
